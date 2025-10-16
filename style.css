@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: arial;
+
+}
+
+body{
+    text-align: center;
+    justify-content: center;
+    color: rgb(252, 252, 252);
+    border: 0;
+    background-image: url(Imagens/BackFuria.png);background-repeat:no-repeat;background-size: cover;background-attachment: fixed;
+}
+
+.element {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(66,66,66,0.4);
+    width: 800px;
+    p {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+}
+
+.ano {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.jogador1 {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.jogador1 .texto1 {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.jogador1 .imgjogador1 img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.jogador2 {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-direction: row-reverse; /* mantém a imagem à esquerda */
+}
+
+/* o texto agora precisa de margem à esquerda */
+.jogador2 .texto2 {
+    flex: 1;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.jogador2 .imgjogador2 img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
