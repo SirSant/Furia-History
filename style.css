@@ -89,6 +89,7 @@ nav.menu-lateral {
     top: 0;
     left: 0;
     overflow: hidden;
+    transition: .6s;
 }
 
 nav.menu-lateral:hover {
