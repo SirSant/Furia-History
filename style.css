@@ -7,20 +7,21 @@
 }
 
 body{
-    text-align: center;
-    justify-content: center;
     color: rgb(252, 252, 252);
+    justify-content: center;
     border: 0;
     background-image: url(Imagens/BackFuria.png);background-repeat:no-repeat;background-size: cover;background-attachment: fixed;
 }
 
 .element {
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(66,66,66,0.4);
     width: 800px;
+    height: 100%;
     p {
         margin-left: 30px;
         margin-right: 30px;
@@ -43,6 +44,7 @@ body{
 }
 
 .jogador1 .texto1 {
+    text-decoration: none;
     flex: 1;
     text-align: left;
     margin-right: 20px;
@@ -75,4 +77,57 @@ body{
     max-width: 250px;
     height: auto;
     border-radius: 10px;
+}
+
+nav.menu-lateral {
+    width: 100px;
+    height: 100%;
+    background-color: rgba(66,66,66,0.8);
+    padding: 40px 0 40px 1%;
+    box-shadow: 5px 0 0 rgb(26,26,26);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+nav.menu-lateral:hover {
+    width: 300px;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i {
+    color: white;
+    font-size: 60px;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .6s;
+}
+
+ul li.item-menu:hover {
+    background: rgb(26,26,26);
+}
+
+ul li.item-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 100px;
+    font-size: 60px;
 }
